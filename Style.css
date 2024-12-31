@@ -551,8 +551,11 @@ footer .header-socials .socials:hover{
     color: #00050A !important;
 }
 @media (max-width: 1000px) {
+    a{
+        width: 100%;
+    }
     .navbar{
-        padding: 1rem 1.8rem;
+        padding: 0.8rem 1rem;
         flex-direction: row-reverse;
         /* z-index: 4; */
     }
@@ -562,7 +565,7 @@ footer .header-socials .socials:hover{
     .name{
         margin-left: 12px;
         font-family: tomatoes;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
         line-height: 46.6px;
     }
@@ -652,9 +655,11 @@ footer .header-socials .socials:hover{
         font-size: 20px;
         font-weight: 700;
         margin-left: 0px;
+        text-align: center;
         /* width: 100%; */
     }
     nav button{
+        margin-left: 0px;
         width: 100%;
         background-color: #00050A;
         color: #F2F2F2;
@@ -663,6 +668,7 @@ footer .header-socials .socials:hover{
         height: 50vh;
         padding: 0rem 1rem;
         padding-top: 100px;
+        padding-bottom: 20px;
     }
     .heading-text{
         width: 90%;
@@ -702,6 +708,14 @@ footer .header-socials .socials:hover{
         width: 94%;
         height: 200px;
         object-position: top;
+    }
+    .project-more{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        gap: 20px;
     }
     .footer{
         padding: 3rem 1rem;
