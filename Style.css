@@ -555,17 +555,16 @@ footer .header-socials .socials:hover{
         width: 100%;
     }
     .navbar{
-        padding: 0.8rem 1rem;
+        padding: 0.5rem 1rem;
         flex-direction: row-reverse;
-        /* z-index: 4; */
     }
     .logo{
         z-index: 2;
     }
     .name{
-        margin-left: 12px;
+        margin-left: 0px;
         font-family: tomatoes;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
         line-height: 46.6px;
     }
@@ -584,8 +583,8 @@ footer .header-socials .socials:hover{
         position: absolute;
         height: 30px;
         width: 30px;
-        top: 20px;
-        left: 15px;
+        top: 12px;
+        left: 10px;
         z-index: 2;
         cursor: pointer;
     }
@@ -713,7 +712,7 @@ footer .header-socials .socials:hover{
         margin-top: 50px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: no-wrap;
         gap: 20px;
     }
@@ -741,5 +740,16 @@ footer .header-socials .socials:hover{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+}
+@media (max-width: 400px){
+      .header{
+        height: 65vh;
+        padding: 0rem 1rem;
+        padding-top: 180px;
+        padding-bottom: 120px;
+    }
+    .device p{
+        font-size: 10px;
     }
 }
