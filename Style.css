@@ -300,6 +300,7 @@ nav button:hover{
     font-weight: 400;
     font-size: 20px;
     line-height: normal;
+    text-align: justify;
     color: var(--textcolor2);
 }
 .project-button{
